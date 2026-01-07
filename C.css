@@ -15,8 +15,6 @@
     border: none;
     color: #FFFFFF;
     cursor: pointer;
-
-    
 }
 .top-right{
     display: flex;
@@ -26,8 +24,6 @@
     text-align: right;
     width:  500px;
     padding-right: 350px;
-    /* padding: 220px 260px 364px ; */
-
 }
 header{
     background: url(banner1.png);
@@ -38,7 +34,6 @@ header{
     justify-content: flex-end;
     background-size: cover;    
 }
-
 .top-section .top-right h3{
     font-size: 65PX;
     padding-bottom: 20px;
@@ -56,7 +51,6 @@ header{
     padding-top: 400px;
     padding-right: 200px;
 }
-
 .about-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -101,4 +95,31 @@ header{
     width: 24px;
     height: 24px;
     color: #00a67e;
+}
+.skills-box h2{
+    font-size: 45px;
+
+}
+.skills-box{
+    display: flex;
+    gap: 40px;
+    width: 100%;
+}
+.skills-box .skills-card{
+    padding: 35px;
+    max-width: 275px;
+}
+.skills-card h3{
+    font-size: 20;
+    color: #181818;
+}
+.skills-card p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 28px;
+    text-align: center;
+}
+#skills{
+    padding-top: 130px;
+    
 }
